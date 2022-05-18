@@ -14,3 +14,5 @@ if (!$conn) {
 echo "Koneksi berhasil";
 mysqli_close($conn);
 ?>
+
+<!-- sedikit perbaikan comment  -->
