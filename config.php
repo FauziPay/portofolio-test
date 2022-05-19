@@ -1,9 +1,9 @@
 <?php
-$servername = "localhost";
-$database = "niagahos_namadatabase";
-$username = "niagahos_user";
-$password = "passworddatabase";
- 
+$servername = "sql6.freemysqlhosting.net";
+$database = "sql6492932";
+$username = "sql6492932";
+$password = "qWa3NiK4it";
+
 // untuk tulisan bercetak tebal silakan sesuaikan dengan detail database Anda
 // membuat koneksi
 $conn = mysqli_connect($servername, $username, $password, $database);
@@ -13,6 +13,3 @@ if (!$conn) {
 }
 echo "Koneksi berhasil";
 mysqli_close($conn);
-?>
-
-<!-- sedikit perbaikan comment  -->
